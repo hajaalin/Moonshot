@@ -17,3 +17,6 @@ ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -X dev@0.0.0.0 -
 
 password=123
 
+5. Run icommand
+ils
+
