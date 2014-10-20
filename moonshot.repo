@@ -1,0 +1,7 @@
+[Moonshot]
+name=Moonshot
+baseurl=http://repository.project-moonshot.org/rpms/centos6/
+failovermethod=priority
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/Moonshot
+

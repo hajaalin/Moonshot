@@ -1,0 +1,7 @@
+irodsAuthScheme Moonshot
+irodsServerDn 'host/researchida10.csc.fi'
+irodsHost researchida10.csc.fi
+irodsPort 1247
+irodsUserName hajaalin
+irodsZone ida
+irodsHome /ida/hy/hy7004
