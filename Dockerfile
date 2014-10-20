@@ -23,7 +23,9 @@ RUN yum install -y \
 openssh-server \
 xauth \
 augeas \
-&& mkdir /var/run/sshd
+dbus \
+&& mkdir /var/run/sshd \
+&& dbus-uuidgen > /var/lib/dbus/machine-id
 
 RUN /usr/bin/ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -C '' -N ''
 RUN /usr/bin/ssh-keygen -t dsa -f /etc/ssh/ssh_host_dsa_key -C '' -N ''
