@@ -14,7 +14,6 @@ docker port moonshot 22
 
 4. Connect with ssh to host port
 ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -X dev@0.0.0.0 -p "PORT"
-
 password=123
 
 5. Run icommand
