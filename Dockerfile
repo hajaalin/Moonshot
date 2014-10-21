@@ -24,6 +24,8 @@ openssh-server \
 xauth \
 augeas \
 dbus \
+xorg-x11-fonts-misc \
+xorg-x11-fonts-Type1 \
 && mkdir /var/run/sshd \
 && dbus-uuidgen > /var/lib/dbus/machine-id
 
